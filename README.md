@@ -12,16 +12,16 @@ This project develops and evaluates a fully connected neural network for predict
 
 ## Environment
 
-The following versions were used to execute and verify the project:
+The following Python and library versions are installed in the `chg4360c-fall2026` Conda environment used for local project execution:
 
-- Python 3.13.5
-- matplotlib 3.10.8
-- numpy 2.3.5
-- pandas 2.2.3
-- scikit-learn 1.8.0
-- torch 2.10.0 (CPU build)
+- Python 3.14.7
+- matplotlib 3.11.0
+- numpy 2.5.2
+- pandas 3.0.5
+- scikit-learn 1.9.0
+- torch 2.13.0
 
-Install the listed packages with `pip install -r requirements.txt` in an appropriate Python environment. Versions may differ in another computer's environment; the files above describe the versions actually used to produce the reported results.
+These are the direct libraries used by the project, rather than every package listed in the Conda environment export. PyTorch (`torch`) was installed through pip. The numerical results included in this repository were originally generated in a different environment (Python 3.13.5, matplotlib 3.10.8, numpy 2.3.5, pandas 2.2.3, scikit-learn 1.8.0, and torch 2.10.0); rerunning the analysis in the environment listed above may produce slightly different results. To reproduce the results on this computer, run `main.py` with the selected `chg4360c-fall2026` interpreter. The full Conda export contains machine-specific build strings and a local installation prefix, so it should not be treated as a portable dependency specification without adjustment.
 
 ## Code Design
 
