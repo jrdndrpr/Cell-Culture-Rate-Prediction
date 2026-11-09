@@ -1,0 +1,12 @@
+{
+  "hidden_layers": "[64, 32]",
+  "activation": "sigmoid",
+  "learning_rate": 0.002,
+  "batch_size": 128,
+  "weight_decay": 0.0,
+  "epochs_search": 90,
+  "epochs_cv": 260,
+  "epochs_sensitivity": 110,
+  "seed": 4360,
+  "n_search": 24
+}

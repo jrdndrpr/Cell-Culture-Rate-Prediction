@@ -1,0 +1,12 @@
+{
+  "hidden_layers": "[16, 8]",
+  "activation": "relu",
+  "learning_rate": 0.001,
+  "batch_size": 128,
+  "weight_decay": 0.0,
+  "epochs_search": 12,
+  "epochs_cv": 12,
+  "epochs_sensitivity": 12,
+  "seed": 4360,
+  "n_search": 4
+}
